@@ -10,6 +10,5 @@ use Illuminate\Foundation\Auth\Access\AuthorizesResources;
 
 class Controller extends BaseController
 {
-  $word = 'string';
     use AuthorizesRequests, AuthorizesResources, DispatchesJobs, ValidatesRequests;
 }
