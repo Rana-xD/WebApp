@@ -28,3 +28,8 @@ Route::get('/contact',function(){
         return view('contact');
 });
 Route::get('/logout','System@logout');
+
+
+Route::get('posts', 'PostsController@posts');
+
+Route::post('upload', 'PostsController@upload');
